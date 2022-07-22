@@ -1,0 +1,66 @@
+[9.754896164] 2022-07-21 11:38:46,861 - INFO - launcher: Starting sanity checks
+[9.887695312] 2022-07-21 11:38:46,861 - INFO - launcher: Checking for Python 3.8+
+[9.936809540] 2022-07-21 11:38:46,861 - INFO - launcher: Checking console encoding
+[9.975671768] 2022-07-21 11:38:46,861 - INFO - launcher: Ensuring we're in the right environment
+[147.850275040] 2022-07-21 11:38:46,999 - INFO - launcher: Required checks passed.
+[148.115158081] 2022-07-21 11:38:46,999 - INFO - launcher: Optional checks passed.
+[148.188114166] 2022-07-21 11:38:46,999 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.3475258350372314] 2022-07-21 11:38:47,198 - INFO - musicbot.config | In config.py::MainThread(281473365438480), line 250 in run_checks: Using i18n: config/i18n/zh_TW.json
+[0.3484623432159424] 2022-07-21 11:38:47,199 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 281 in _setup_logging: Set logging level to INFO
+[0.3494403362274170] 2022-07-21 11:38:47,200 - DEBUG - musicbot.json | In json.py::MainThread(281473365438480), line 9 in __init__: Init JSON obj with config/i18n/zh_TW.json
+[0.3614583015441895] 2022-07-21 11:38:47,212 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 105 in __init__: Starting MusicBot release-151221-1-g1df26df
+[0.3617444038391113] 2022-07-21 11:38:47,213 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 111 in __init__: Loaded autoplaylist with 1 entries
+[0.5140979290008545] 2022-07-21 11:38:47,365 - DEBUG - musicbot.spotify | In spotify.py::MainThread(281473365438480), line 100 in get_token: Created a new access token: {'access_token': 'BQDMR9NqAqLTA0x2q0ZsY5N9hhXVlavC-Q7c7QrylKmDRvXpUa-78cBsY73gGFdPMAMmyX_vUDww2kj3XP8BSqqhNh1GxbJdx4cIhoZYwEMWLSA9SZE', 'token_type': 'Bearer', 'expires_in': 3600, 'expires_at': 1658407127}
+[0.5143291950225830] 2022-07-21 11:38:47,365 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 145 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[3.2543108463287354] 2022-07-21 11:38:50,105 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 1119 in on_ready: Connection established, ready to go.
+[3.2545030117034912] 2022-07-21 11:38:50,105 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 430 in _cache_app_info: Caching app info
+[3.4686489105224609] 2022-07-21 11:38:50,320 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 924 in _scheck_ensure_env: Ensuring data folders exist
+[3.4691915512084961] 2022-07-21 11:38:50,320 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 939 in _scheck_server_permissions: Checking server permissions
+[3.4692840576171875] 2022-07-21 11:38:50,320 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 943 in _scheck_autoplaylist: Auditing autoplaylist
+[3.4693293571472168] 2022-07-21 11:38:50,320 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 947 in _scheck_configs: Validating config
+[3.4693691730499268] 2022-07-21 11:38:50,320 - DEBUG - musicbot.config | In config.py::MainThread(281473365438480), line 376 in async_validate: Validating options...
+[3.4694075584411621] 2022-07-21 11:38:50,320 - DEBUG - musicbot.config | In config.py::MainThread(281473365438480), line 388 in async_validate: Acquired owner id via API
+[3.4694406986236572] 2022-07-21 11:38:50,320 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 950 in _scheck_configs: Validating permissions config
+[3.4694755077362061] 2022-07-21 11:38:50,320 - DEBUG - musicbot.permissions | In permissions.py::MainThread(281473365438480), line 112 in async_validate: Validating permissions...
+[3.4695270061492920] 2022-07-21 11:38:50,320 - DEBUG - musicbot.permissions | In permissions.py::MainThread(281473365438480), line 116 in async_validate: Fixing automatic owner group
+[3.4695694446563721] 2022-07-21 11:38:50,320 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1133 in on_ready: Connected: 858233796502487090/Hippo#2031
+[3.4698295593261719] 2022-07-21 11:38:50,321 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1141 in on_ready: Owner:     586574475353522197/宇翔#5532
+
+[3.4699792861938477] 2022-07-21 11:38:50,321 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1147 in on_ready: Guild List:
+[3.4701044559478760] 2022-07-21 11:38:50,321 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1151 in on_ready:  - 翔翔的伺服器
+[3.4702587127685547] 2022-07-21 11:38:50,321 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1151 in on_ready:  - 423東勢共和國
+[3.4703888893127441] 2022-07-21 11:38:50,321 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1151 in on_ready:  - 資工系學會
+[3.4705641269683838] 2022-07-21 11:38:50,321 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1224 in on_ready: Not bound to any text channels
+[3.4706752300262451] 2022-07-21 11:38:50,322 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 1260 in on_ready: Not autojoining any voice channels
+[29.7479135990142822] 2022-07-21 11:39:16,599 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 3922 in on_message: 586574475353522197/宇翔#5532: ~summon
+[30.7352442741394043] 2022-07-21 11:39:17,586 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 885 in deserialize_queue: Deserializing queue for 786225088755662848
+[30.7587068080902100] 2022-07-21 11:39:17,610 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 520 in get_player: Created player via deserialization for guild 786225088755662848 with 0 entries
+[30.7589662075042725] 2022-07-21 11:39:17,610 - INFO - musicbot.bot | In bot.py::MainThread(281473365438480), line 2817 in cmd_summon: Joining 翔翔的伺服器/一般
+[30.7687268257141113] 2022-07-21 11:39:17,620 - DEBUG - musicbot.bot | In bot.py::MainThread(281473365438480), line 660 in on_player_stop: Running on_player_stop
+[661.5961332321166992] 2022-07-21 11:49:48,447 - ERROR - musicbot.bot | In bot.py::MainThread(281473365438480), line 1084 in run: Error in cleanup
+Traceback (most recent call last):
+  File "/home/yupooooo/Desktop/MusicBot/musicbot/bot.py", line 1070, in run
+    self.loop.run_until_complete(self.start(*self.config.auth))
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yupooooo/Desktop/MusicBot/musicbot/bot.py", line 1082, in run
+    self._cleanup()
+  File "/home/yupooooo/Desktop/MusicBot/musicbot/bot.py", line 1057, in _cleanup
+    pending = asyncio.all_tasks()
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 44, in all_tasks
+    loop = events.get_running_loop()
+RuntimeError: no running event loop

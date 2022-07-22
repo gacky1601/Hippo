@@ -1,0 +1,11 @@
+{
+    "play": ["p"],
+	"pause": ["pu"],
+	"resume": ["r"],
+    "skip": ["s"],
+    "queue": ["q"],
+	"volume": ["v"],
+	"shuffle": ["sh"],
+	"summon": ["hippo"]
+	
+}
